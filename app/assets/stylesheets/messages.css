@@ -12,12 +12,39 @@
   height:100px;
   background-color: #253141;
   padding:0px 20px;
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
 }
+
+.user_name a{
+  font-size:16px;
+  color:#FAFAFA;
+  text-decoration: none;
+}
+
+.create_chat a{
+  font-size:10px;
+  text-decoration: none;
+  color:deepskyblue;
+  padding:14px;
+  border:1px solid lightblue;
+}
+
+
 
 .side_bottom{
   background-color: #2f3151;
   height: calc(100vh - 100px);
   padding:0px 20px;
+  overflow:scroll;
+}
+
+.room{
+  display:block;
+  padding:20px 20px 40px;
+  text-decoration:none;
+  color:white;
 }
 
 
