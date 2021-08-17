@@ -1,0 +1,155 @@
+.wrapper{
+  display: flex;
+}
+
+.side_bar{
+  width:300px;
+  background-color: #253141;
+  height:100vh;
+}
+
+.side_head{
+  height:100px;
+  background-color: #253141;
+  padding:0px 20px;
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+}
+
+.user_name a{
+  font-size:16px;
+  color:#FAFAFA;
+  text-decoration: none;
+}
+
+.create_chat a{
+  font-size:10px;
+  text-decoration: none;
+  color:deepskyblue;
+  padding:14px;
+  border:1px solid lightblue;
+}
+
+
+
+.side_bottom{
+  background-color: #2f3151;
+  height: calc(100vh - 100px);
+  padding:0px 20px;
+  overflow:scroll;
+}
+
+.room{
+  display:block;
+  padding:20px 20px 40px;
+  text-decoration:none;
+  color:white;
+}
+
+
+.main-chat{
+  width:calc(100vw - 300px);
+  background-color: #ffffff;
+  height: 100vh;
+}
+
+.main-top{
+  height:100px;
+  background-color:#ffffff;
+  padding-bottom:46px;
+  padding:0px 40px;
+  display:flex;
+  justify-content: space-between;
+}
+
+.now_room_name{
+  color:#333;
+  font-size:24px;
+  margin-top:36px;
+}
+
+.main-top a{
+  display:inline-block;
+  color:darkred;
+  padding:20px;
+  margin-top:20px;
+  border:1px solid darkred;
+  text-decoration:none;
+}
+
+.main-middle{
+  height:calc(100vh - 190px);
+  background-color:#FAFAFA;
+  padding:0px 40px;
+  overflow:scroll;
+}
+
+.single_message{
+  padding:10px 0px 40px;
+}
+
+.single_message a{
+  font-size:16px;
+  color:#434A54;
+  padding:10px 0px;
+}
+
+.message_time{
+  display:inline;
+  font-size:12px;
+  color:#999;
+  margin-left:10px;
+}
+
+.message_detail{
+  font-size:14px;
+  color:#434A54;
+}
+
+.main-bottom{
+  height:90px;
+  background-color:#DDDDDD;
+  padding:20px 40px;
+}
+
+.main-bottom form{
+  display:flex;
+}
+
+.text_input{
+  width:100%;
+  display:flex;
+  background-color:white;
+}
+
+.text_input input{
+  height:50px;
+  border-style:none;
+  width:100%;
+  padding-left:10px;
+}
+
+.form-image{
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden{
+  display:none;
+}
+
+.submit_button{
+  background-color:#38aef0;
+  color:white;
+  font-size:16px;
+  height:50px;
+  padding:0px 20px;
+  border-style:none;
+  margin-left:15px;
+}
