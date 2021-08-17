@@ -3,4 +3,5 @@
       <a><%= message.user.name %></a>
       <p class = "message_time"><%= l message.created_at %></p>
       <p class = "message_detail"><%= message.content %></p>
+      <%= image_tag message.image.variant(resize: '250x250'), class: 'message-image' if message.image.attached? %>
     </div>
