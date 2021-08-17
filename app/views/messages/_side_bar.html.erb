@@ -9,7 +9,7 @@
   </div>
   <div class = 'side_bottom'>
   <% current_user.rooms.each do |room| %>
-    <a href = "#" class = "room"><%= room.name %></a>
+    <%= link_to room.name , room_messages_path(room) , class: 'room' %>
   <% end%>
   </div>
 </div>
