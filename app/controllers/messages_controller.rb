@@ -3,7 +3,6 @@ class MessagesController < ApplicationController
     @room = Room.find(params[:room_id])
     @message = Message.new
     @messages = @room.messages.includes(:user)
-    binding.pry
   end
 
   def new 
